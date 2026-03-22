@@ -1,10 +1,16 @@
 About: 
 
-    Infix to postfix translator for arithmetic expressions consisting of digits separated by the operators '+', '-', '/' and '*' with possible use of parentheses to specify the precedence of operations. The operators '*' and '/' have higher precedence than '+' and '-'.
+    Infix to postfix translator for arithmetic expressions consisting of 
+    digits separated by the operators '+', '-', '/' and '*' with possible 
+    use of parentheses to specify the precedence of operations. The operators 
+    '*' and '/' have higher precedence than '+' and '-'.
 
-    Invalid arithmetic expressions are not transpiled and exceptions are thrown to the standard diagnostic stream indicating the position number in the line where the error occurred.
+    Invalid arithmetic expressions are not transpiled and exceptions are 
+    thrown to the standard diagnostic stream indicating the position number 
+    in the line where the error occurred.
 
-    To apply predictive analysis to the source string, the left-recursive grammar was adapted by converting it to a right-recursive one.
+    To apply predictive analysis to the source string, the left-recursive 
+    grammar was adapted by converting it to a right-recursive one.
 
 Initial grammar (left-recursive):
 
