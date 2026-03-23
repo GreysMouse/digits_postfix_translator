@@ -82,4 +82,4 @@ Usage:
 
 Compilaton and linking:
 
-    gcc -Wall main.c stream.c stack.c translator.c -o main
+    gcc -Wall main.c src/stream.c src/stack.c src/translator.c -o main
