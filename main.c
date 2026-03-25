@@ -2,7 +2,6 @@
 #include "include/stream.h"
 #include "include/translator.h"
 #include "macro/exceptions.h"
-#include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
 

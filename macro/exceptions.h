@@ -1,3 +1,6 @@
+#include <errno.h>
+#include <stdlib.h>
+
 #ifndef EXCEPTIONS_H
 #define EXCEPTIONS_H
 
